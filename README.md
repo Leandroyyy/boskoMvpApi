@@ -33,3 +33,7 @@ DELETE - /api/user/progress/:id Basic user password
 ```
 *Ao colocar seu username na autenticação, o endpoint sempre irá resgatar o progresso desse username*
 # 
+
+### Neste Backend estamos utilizando a autenticação Basic auth do spring security.
+### Realizamos um CRUD completo em todas as entidades
+### Banco de dados usado: MySql

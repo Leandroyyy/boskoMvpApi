@@ -37,3 +37,9 @@ DELETE - /api/user/progress/:id Basic user password
 ### Neste Backend estamos utilizando a autenticação Basic auth do spring security.
 ### Realizamos um CRUD completo em todas as entidades
 ### Banco de dados usado: MySql
+
+
+*Caso preferir pode usar a Base URL que está na azure*
+```
+https://boskomvp.azurewebsites.net/
+```

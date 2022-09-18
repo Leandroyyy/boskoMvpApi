@@ -4,12 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import br.com.bosko.boskoapi.entity.Book;
-import br.com.bosko.boskoapi.entity.Gender;
 import br.com.bosko.boskoapi.service.BookService;
 import br.com.bosko.boskoapi.service.ProgressService;
 import br.com.bosko.boskoapi.service.UserService;
-import br.com.bosko.boskoapi.dto.request.UserRequestDto;
 
 @Configuration
 public class DatabaseSeed implements CommandLineRunner {
